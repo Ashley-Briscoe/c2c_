@@ -1,0 +1,132 @@
+*
+{
+    Margin: 0;
+    padding: 0;
+}
+
+html {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+body{
+  background-image:url(lighthouse.jpg);
+/*  position: center top;*/
+  z-index: 1;
+  background-repeat: no-repeat;
+  
+}
+
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+.main-nav li 
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;    
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.inact:hover
+{
+    border: 1px solid white;
+}
+
+#Rectangle
+{
+    background-color: black;
+    width: 1365px;
+    height: 110px;
+    margin-top: -50px;
+    z-index: -1;
+    position: absolute;
+}
+
+
+p {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px; 
+    margin: auto;
+    text-align: center;
+/*
+    display:inline-block;
+    position: relative;
+*/
+    bottom: -50px;
+}
+
+
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+/*
+img {
+    vertical-align: middle;
+}
+*/
+
+h1{
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+div.fixed {
+  position: absolute;
+  bottom: 230;
+  right: -20;
+width: auto;
+    text-align: center;
+}
+
+.title1 {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+   position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
+
+
+li{
+    font-size: 25px;
+}
+
+.title{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    left: 260px;
+    bottom: -160px;
+    position: relative;
+}
+
+h2 {
+    font-size: 15px;
+    color: black;
+}
