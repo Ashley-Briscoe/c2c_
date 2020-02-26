@@ -72,7 +72,7 @@ body{
     background-color: black;
     width: 2000px;
     height: 110px;
-    margin-top: -55px;
+    margin-top: -175px;
     margin-left: -20px;
     z-index: -1;
     position: absolute;
@@ -95,7 +95,7 @@ h3 {
     left: 50%;
     bottom: 75%;
     transform: translate(-50%, -50%);
-}
+
 
 img {
     width: 40%;
@@ -114,13 +114,13 @@ img {
 }
 
 
-/*li a,.dropbtn li, {*/
-/*  display: inline-block;*/
-/*  color: white;*/
-/*  text-align: center;*/
-/*  padding: 14px 16px;*/
-/*  text-decoration: none;*/
-/*}*/
+li a,.dropbtn li, {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 
 
@@ -409,6 +409,20 @@ border-radius: 25px;
     position: absolute;
     bottom: 430px;
     left: 680px;
+
+}
+
+.stars2{
+    position: absolute;
+    bottom: 235px;
+    left: 650px;
+
+}
+
+.stars3{
+    position: absolute;
+    bottom: 40px;
+    left: 693px;
 
 }
 
